@@ -1,0 +1,29 @@
+/* styles.css */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #e6e6e6;
+}
+
+svg {
+    border: 2px solid #333;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(153, 70, 70, 0.5);
+}
+
+line, circle {
+    stroke: #032761;
+}
+
+#seconds {
+    stroke: #570cb9;
+}
+
+circle {
+    fill: #1465e7;
+}
